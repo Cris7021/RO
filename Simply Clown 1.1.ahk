@@ -4,7 +4,7 @@
 ;Enjoy!
 
 delay_clown := 200
-delay_gear := 200 ;no needed atm
+delay_gear := 200 
 switch_harp := 100
 
 $F1::
@@ -20,7 +20,7 @@ Send, {F1}
 sleep delay_clown
 Send, {F6}
 sleep switch_harp
-Send, {F1} ;break??
+Send, {F1} 
 return
 
 $F2:: ;switch INT gear
