@@ -8,7 +8,7 @@ delay_gear := 200
 switch_harp := 100
 
 $F1::
-Send, {F1} ;Loop switch skills
+Send, {F1} 
 sleep delay_clown
 Send, {F2}
 sleep switch_harp
